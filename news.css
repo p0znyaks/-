@@ -1,0 +1,11 @@
+.news__all-news-title {
+  font-size: var(--font-size-17xl);
+  color: var(--color-gray-400);
+  margin-left: 50px;
+  margin-top: 53px; }
+.news__all-news-block {
+  display: flex;
+  justify-content: center;
+  margin-left: -275px; }
+
+/*# sourceMappingURL=news.css.map */

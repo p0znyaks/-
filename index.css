@@ -3,6 +3,10 @@ a {
   color: #282828;
 }
 
+a:hover {
+  color: red;
+}
+
 .header__image-container {
   height: 812px;
   position: relative;
@@ -88,6 +92,7 @@ a {
 .information__age {
   font-size: var(--font-size-5xl);
   letter-spacing: 0.2px;
+  margin-left: 50px;
 }
 
 .information-date,
@@ -117,7 +122,7 @@ a {
 .content__nearest_premiers-title {
   font-size: var(--font-size-17xl);
   letter-spacing: 0.2px;
-  margin-left: 15px;
+  margin-left: 50px;
 }
 
 .content__nearest_premiers-list {
@@ -221,7 +226,7 @@ a {
 }
 
 .news__theater {
-  margin-left: 25px;
+  margin-left: 50px;
   font-size: var(--font-size-17xl);
   color: var(--color-gray-400);
 }
@@ -244,11 +249,11 @@ a {
 }
 
 .news__block {
-  margin: 25px;
   display: flex;
   flex-direction: column;
   align-content: center;
   flex-wrap: wrap;
+  margin: 25px 0 0 50px;
 }
 
 .news__block-row {
