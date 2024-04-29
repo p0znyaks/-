@@ -301,79 +301,16 @@ a:hover {
   width: 580px;
 }
 
-
-
-
-.inno-1-icon,
-.inno-2 {
-  left: -75px;
-}
-.inno-1-icon {
-  top: -65px;
-  width: 1430px;
-  height: 952px;
-  object-fit: cover;
-}
-.inno-2 {
-  top: 71px;
-  background: linear-gradient(234.97deg);
-  width: 1449px;
-  height: 812px;
-}
-.fireshot-capture-741-webdes {
-  position: absolute;
-  top: 22px;
-  left: 0;
-  width: 1279px;
-  height: 633px;
-  object-fit: cover;
-  display: none;
-}
-.child {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: var(--color-white);
-  width: 1280px;
-  height: 71px;
-}
-.div {
-  flex: 1;
-  position: relative;
-  letter-spacing: 0.2px;
-  line-height: 18px;
-}
-.parent {
-  position: absolute;
-  top: 26px;
-  left: 145px;
-  width: 366px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 14px;
-  font-size: var(--font-size-sm);
-}
-
 .frame-child {
   top: 0;
   left: 1051px;
 }
+
 .frame-child {
   top: 12px;
   left: 119px;
   max-height: 100%;
   width: 60px;
-}
-.group {
-  top: 1520px;
-  left: 1051px;
-  width: 179px;
-  height: 18px;
-  text-align: right;
-  font-size: var(--font-size-lg);
-  font-family: var(--font-roboto);
 }
 
 .footer__info-wrapper-rules_staff {
@@ -381,16 +318,19 @@ a:hover {
   position: relative;
   letter-spacing: 0.2px;
 }
+
 .wrapper {
   flex: 1;
   border-radius: var(--br-3xl-5);
   border: 2px solid var(--color-white);
   padding: 0 20px 0 20px;
 }
+
 .footer__info-container-panorama_history {
   position: relative;
   letter-spacing: 0.2px;
 }
+
 .container {
   flex: 1;
   border-radius: var(--br-3xl-5);
@@ -398,6 +338,7 @@ a:hover {
   display: flex;
   flex-direction: column;
 }
+
 .container {
   box-sizing: border-box;
   height: 45px;
@@ -406,16 +347,17 @@ a:hover {
   padding: var(--padding-smi) 0;
 }
 
-
 .child2 {
   top: 1581px;
   width: 580px;
   height: 150px;
 }
+
 .child2,
 .child3 {
   left: 50px;
 }
+
 .child3 {
   top: 1899px;
   width: 580px;
@@ -423,39 +365,18 @@ a:hover {
 }
 
 .child4,
-.child5,
-
-.unnamed-1-icon {
+.child5 {
   left: 650px;
   width: 580px;
 }
 
 .child4,
-.child5,
-.unnamed-1-icon {
+.child5 {
   top: 1581px;
   height: 150px;
   object-fit: cover;
 }
-.child5,
-.unnamed-1-icon {
+
+.child5 {
   top: 1899px;
-}
-.unnamed-1-icon {
-  top: 8px;
-  left: 50px;
-  width: 55px;
-  height: 55px;
-}
-.a {
-  text-decoration: none;
-  width: 100%;
-  position: relative;
-  background-color: var(--color-white);
-  height: 2294px;
-  overflow: hidden;
-  text-align: left;
-  font-size: var(--font-size-xl);
-  color: var(--color-gray-300);
-  font-family: var(--font-crimson-pro);
 }
