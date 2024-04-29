@@ -115,6 +115,9 @@
       &_payment {
         background-color: var(--color-crimson);
         width: 186px;
+        :hover {
+          color: var(--color-white);
+        }
       }
 
       &_cancel {
