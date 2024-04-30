@@ -1,3 +1,52 @@
+.event__information {
+  margin-top: 50px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between; }
+  .event__information-title-upper {
+    font-size: var(--font-size-17xl); }
+  .event__information-title-bottom {
+    font-size: var(--font-size-lg); }
+  .event__information-misc {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around; }
+    .event__information-misc-time-upper {
+      font-size: var(--font-size-xs);
+      color: var(--color-gray-200); }
+    .event__information-misc-time-bottom {
+      font-size: var(--font-size-5xl);
+      color: var(--color-gray-300); }
+    .event__information-misc-age {
+      margin-left: 125px; }
+      .event__information-misc-age-upper {
+        font-size: var(--font-size-xs);
+        color: var(--color-gray-200); }
+      .event__information-misc-age-bottom {
+        font-size: var(--font-size-5xl);
+        color: var(--color-gray-300); }
+  .event__information-payment {
+    margin-right: 50px; }
+    .event__information-payment-block {
+      width: 154px;
+      height: 45px;
+      border: 0;
+      cursor: pointer;
+      background-color: var(--color-crimson);
+      border-radius: var(--br-3xl-5);
+      font-size: var(--font-size-sm);
+      color: var(--color-white);
+      text-align: center;
+      align-content: center; }
 
+.event__description {
+  margin-top: 50px;
+  margin-left: 50px; }
+  .event__description-block {
+    letter-spacing: 0.2px;
+    line-height: 18px;
+    font-size: var(--font-size-sm);
+    font-family: 'Crimson Pro', sans-serif;
+    color: var(--color-gray-300); }
 
 /*# sourceMappingURL=event.css.map */

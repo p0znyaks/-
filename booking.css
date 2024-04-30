@@ -18,6 +18,8 @@
     height: 55px;
     display: block; }
 .header__menu-bar-menu {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-300);
   margin-left: 50px;
   display: flex; }
 .header__menu-bar-menu-item:not(:first-child) {
@@ -57,6 +59,7 @@
     width: 346px;
     height: 285px;
     font-size: var(--font-size-lg);
+    font-family: 'Crimson Pro', sans-serif;
     color: var(--color-gray-400); }
   .panorama__info-date-choice-buttons {
     display: flex;
@@ -83,8 +86,6 @@
       .panorama__info-actions-action_payment {
         background-color: var(--color-crimson);
         width: 186px; }
-        .panorama__info-actions-action_payment :hover {
-          color: var(--color-white); }
       .panorama__info-actions-action_cancel {
         background-color: var(--color-silver-200);
         width: 134px; }
