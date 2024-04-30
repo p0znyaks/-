@@ -20,6 +20,7 @@
 .header__menu-bar-menu {
   font-size: var(--font-size-sm);
   color: var(--color-gray-300);
+  font-family: 'Crimson Pro', sans-serif;
   margin-left: 50px;
   display: flex; }
 .header__menu-bar-menu-item:not(:first-child) {

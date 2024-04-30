@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
   color: #282828;
@@ -36,6 +40,9 @@ a:hover {
 .header__menu-bar-menu {
   margin-left: 50px;
   display: flex;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-300);
+  font-family: 'Crimson Pro', sans-serif;
 }
 
 .header__menu-bar-menu-item:not(:first-child) {
@@ -90,7 +97,9 @@ a:hover {
 .information__date,
 .information__event,
 .information__age {
+  font-family: 'Crimson Pro', sans-serif;
   font-size: var(--font-size-5xl);
+  color: var(--color-gray-300);
   letter-spacing: 0.2px;
   margin-left: 50px;
 }
@@ -99,6 +108,7 @@ a:hover {
 .information-age,
 .information-event
 {
+  font-family: 'Roboto', sans-serif;
   font-size: var(--font-size-xs);
   color: var(--color-gray-200);
 }
@@ -110,17 +120,21 @@ a:hover {
 }
 
 .information__more-information {
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-300);
+  font-family: 'Crimson Pro', sans-serif;
   top: 650px;
   left: 1081px;
-  font-size: var(--font-size-lg);
   text-decoration: underline;
   letter-spacing: 0.2px;
   text-align: right;
-  margin: 40px 20px 35px 20px;
+  margin: 40px 50px 35px 20px;
 }
 
 .content__nearest_premiers-title {
   font-size: var(--font-size-17xl);
+  color: var(--color-gray-300);
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 0.2px;
   margin-left: 50px;
 }
@@ -155,6 +169,7 @@ a:hover {
   border-radius: var(--br-sm);
   font-size: var(--font-size-sm);
   color: var(--color-white);
+  font-family: 'Crimson Pro', sans-serif;
   text-align: center;
   align-content: center;
 }
@@ -169,6 +184,7 @@ a:hover {
   border-radius: var(--br-sm);
   font-size: var(--font-size-sm);
   color: var(--color-gray-400);
+  font-family: 'Crimson Pro', sans-serif;
   text-align: center;
   align-content: center;
 }
@@ -176,19 +192,21 @@ a:hover {
 .content__nearest_premiers-list-item-name {
   position: absolute;
   top: 337px;
-  left: 171px;
-  font-size: var(--font-size-xl);
+  left: 160px;
   line-height: 30px;
+  font-size: var(--font-size-xl);
   color: var(--color-white);
+  font-family: 'Roboto', sans-serif;
 }
 
 .content__nearest_premiers-list-item-description {
   position: absolute;
   top: 377px;
   left: 28px;
-  font-size: var(--font-size-xs);
   line-height: 16px;
+  font-size: var(--font-size-xs);
   color: var(--color-silver-100);
+  font-family: 'Crimson Pro', sans-serif;
 }
 
 .footer {

@@ -6,10 +6,9 @@
         <title>Театр юного зрителя</title>
         <link rel="stylesheet" href="./global.css"/>
         <link rel="stylesheet" href="./index.css"/>
-        <link
-                rel="stylesheet"
-                href="https://fonts.googleapis.com/css2?family=Crimson Pro:wght@400&display=swap"
-        />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap" rel="stylesheet">
         <link
                 rel="stylesheet"
                 href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
@@ -24,7 +23,7 @@
                 </div>
                 <div class="header__menu-bar-menu">
                     <div class="header__menu-bar-menu-item"><a href="index.html" target="_self">Главная</a></div>
-                    <div class="header__menu-bar-menu-item"><a>Афиша</a></div>
+                    <div class="header__menu-bar-menu-item"><a href="#collection">Афиша</a></div>
                     <div class="header__menu-bar-menu-item"><a href="news.html" target="_self">Новости</a></div>
                     <div class="header__menu-bar-menu-item"><a href="brief.html" target="_self">О театре</a></div>
                 </div>
@@ -58,13 +57,13 @@
             </div>
             </div>
             <div class="information__more-information">
-                <span>Узнать подробнее</span>
+                <a href="brief.html"><span>Узнать подробнее</span></a>
             </div>
         </div>
 
         <div class="content">
             <div class="content__nearest-premiers-block">
-                <div class="content__nearest_premiers-title">Ближайшие премьеры</div>
+                <div class="content__nearest_premiers-title" id="collection">Ближайшие премьеры</div>
                     <div class="content__nearest_premiers-list">
                         <div class="content__nearest_premiers-list-item">
                             <img class="content__nearest_premiers-list-item-image"
