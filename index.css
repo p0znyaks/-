@@ -276,12 +276,16 @@ a:hover {
   display: flex;
   justify-content: space-between;
   line-height: 30px;
+  font-size: var(--font-size-xl);
   color: var(--color-gray-400);
+  font-family: 'Roboto', sans-serif;
 }
 
 .news__block-date {
   line-height: 30px;
   color: var(--color-silver-200);
+  font-size: var(--font-size-xl);
+  font-family: 'Roboto', sans-serif;
   text-align: right;
 }
 
@@ -292,7 +296,7 @@ a:hover {
 .news__block-description {
   font-size: var(--font-size-xs);
   line-height: 16px;
-  font-family: var(--font-roboto);
+  font-family: 'Crimson Pro', sans-serif;
   color: var(--color-gray-100);
   display: inline-block;
   height: 48px;
