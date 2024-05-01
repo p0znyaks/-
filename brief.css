@@ -56,16 +56,20 @@
           letter-spacing: 0.2px;
           display: inline-block;
           min-width: 112px;
-          white-space: nowrap; }
+          white-space: nowrap;
+          font-size: var(--font-size-xs);
+          color: var(--color-gray-200);
+          font-family: 'Roboto', sans-serif; }
         .main-page__distance-info__travel-time__location-info__distance {
+          font-size: var(--font-size-5xl);
+          color: var(--color-gray-300);
+          font-family: 'Crimson Pro', sans-serif;
           position: relative;
           letter-spacing: 0.2px;
           display: inline-block;
           min-width: 112px;
           white-space: nowrap;
-          font-size: var(--font-size-5xl);
           line-height: 26.4px;
-          color: var(--color-gray-300);
           min-width: 67px; }
     .main-page__distance-info__duration-info {
       overflow: hidden;
@@ -92,12 +96,13 @@
           min-width: 112px;
           white-space: nowrap; }
         .main-page__distance-info__duration-info__location-info__time {
+          font-size: var(--font-size-5xl);
+          color: var(--color-gray-300);
+          font-family: 'Crimson Pro', sans-serif;
           align-self: stretch;
           position: relative;
-          font-size: var(--font-size-5xl);
           letter-spacing: 0.2px;
           line-height: 26.4px;
-          color: var(--color-gray-300);
           white-space: nowrap; }
   .main-page__demographics {
     display: flex;
@@ -129,13 +134,13 @@
           display: inline-block;
           min-width: 60px; }
         .main-page__demographics__population-info__resident-count__count {
+          font-size: var(--font-size-5xl);
+          color: var(--color-gray-300);
           position: relative;
           letter-spacing: 0.2px;
           display: inline-block;
           min-width: 60px;
-          font-size: var(--font-size-5xl);
           line-height: 26.4px;
-          color: var(--color-gray-300);
           min-width: 91px;
           white-space: nowrap; }
     .main-page__demographics__action-panel {
@@ -155,14 +160,14 @@
         margin: 0;
         align-self: stretch;
         position: relative;
-        font-size: inherit;
         text-decoration: underline;
         letter-spacing: 0.2px;
-        font-weight: 400;
-        font-family: inherit;
         display: inline-block;
         min-width: 84px;
-        white-space: nowrap; }
+        white-space: nowrap;
+        font-size: var(--font-size-sm);
+        color: var(--color-gray-300);
+        font-family: 'Roboto', sans-serif; }
 
 .history-title {
   box-sizing: border-box;
@@ -219,7 +224,9 @@
             letter-spacing: 0.2px;
             line-height: 18px;
             align-items: center;
-            min-width: 103px; }
+            min-width: 103px;
+            font-size: var(--font-size-sm);
+            color: var(--color-gray-300); }
         .history-title__history-content__details__history-panel__history-divider {
           align-self: stretch;
           height: 2px;
@@ -246,7 +253,10 @@
             margin: 0; }
           .history-title__history-content__details__block__text__p {
             text-align: left;
-            margin: 0; }
+            margin: 0;
+            font-size: var(--font-size-sm);
+            color: var(--color-gray-300);
+            font-family: 'Crimson Pro', sans-serif; }
     .history-title__history-content__content-divider-icon {
       width: 540px;
       position: relative;
@@ -255,7 +265,7 @@
       max-width: 100%; }
 
 @media screen and (max-width: 1200px) {
-  .div74 {
+  .main-page__distance-info__duration-info__location-info__time {
     display: none; }
 
   .main-page {
@@ -263,16 +273,16 @@
     padding-right: var(--padding-6xl);
     box-sizing: border-box; } }
 @media screen and (max-width: 1050px) {
-  .content-divider-icon {
+  .history-title__history-content__content-divider-icon {
     flex: 1; }
 
-  .history-content {
+  .history-title__history-content {
     flex-wrap: wrap; } }
 @media screen and (max-width: 750px) {
-  .details {
+  .history-title__history-content__details {
     min-width: 100%; }
 
-  .history-content {
+  .history-title__history-content {
     gap: 23px; }
 
   .history-title {
@@ -280,10 +290,10 @@
     padding-right: 29px;
     box-sizing: border-box; }
 
-  .div70 {
+  .body {
     gap: 60px; } }
 @media screen and (max-width: 450px) {
-  .div70 {
+  .body {
     gap: 30px; } }
 
 /*# sourceMappingURL=brief.css.map */
