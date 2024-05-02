@@ -168,6 +168,8 @@
         font-size: var(--font-size-sm);
         color: var(--color-gray-300);
         font-family: 'Roboto', sans-serif; }
+        .main-page__demographics__action-panel__back__a:hover {
+          color: var(--color-crimson); }
 
 .history-title {
   box-sizing: border-box;

@@ -198,6 +198,10 @@
         font-size: var(--font-size-sm);
         color: var(--color-gray-300);
         font-family: 'Roboto', sans-serif;
+
+        &__a:hover {
+          color: var(--color-crimson);
+        }
       }
     }
   }

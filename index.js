@@ -11,11 +11,11 @@ function moveCarouselRight() {
 
 function reserveSeat(elem) {
     const seatNumber = elem.innerHTML;
-    if (elem.style.backgroundColor === 'yellow') {
-        elem.style.backgroundColor = 'gray';
+    if (elem.style.backgroundColor === 'crimson') {
+        elem.style.backgroundColor = 'silver';
         reservedSeats[seatNumber - 1] = 0;
     } else {
-        elem.style.backgroundColor = 'yellow';
+        elem.style.backgroundColor = 'crimson';
         reservedSeats[seatNumber - 1] = 1;
     }
     console.log(reservedSeats);
