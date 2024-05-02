@@ -26,11 +26,13 @@
     &-upper {
       font-size: var(--font-size-17xl);
       color: var(--color-gray-300);
+      font-family: 'Roboto', sans-serif;
     }
 
     &-bottom {
       font-size: var(--font-size-lg);
       color: var(--color-gray-300);
+      font-family: 'Crimson Pro', sans-serif;
     }
   }
 
@@ -44,11 +46,13 @@
       &-upper {
         font-size: var(--font-size-xs);
         color: var(--color-gray-200);
+        font-family: 'Roboto', sans-serif;
       }
 
       &-bottom {
         font-size: var(--font-size-5xl);
         color: var(--color-gray-300);
+        font-family: 'Crimson Pro', sans-serif;
       }
     }
 
@@ -58,11 +62,13 @@
       &-upper {
         font-size: var(--font-size-xs);
         color: var(--color-gray-200);
+        font-family: 'Roboto', sans-serif;
       }
 
       &-bottom {
         font-size: var(--font-size-5xl);
         color: var(--color-gray-300);
+        font-family: 'Crimson Pro', sans-serif;
       }
     }
   }
@@ -79,6 +85,7 @@
       border-radius: var(--br-3xl-5);
       font-size: var(--font-size-sm);
       color: var(--color-white);
+      font-family: 'Roboto', sans-serif;
       text-align: center;
       align-content: center;
       &:hover {
@@ -96,7 +103,7 @@
     letter-spacing: 0.2px;
     line-height: 18px;
     font-size: var(--font-size-sm);
-    font-family: 'Crimson Pro', sans-serif;
     color: var(--color-gray-300);
+    font-family: 'Crimson Pro', sans-serif;
   }
 }

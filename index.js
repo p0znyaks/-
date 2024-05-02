@@ -1,14 +1,6 @@
 const reservedSeats = [];
 const buyerPhone = '+375 (29) 111-11-11'
 
-function moveCarouselLeft() {
-    console.log('left')
-}
-
-function moveCarouselRight() {
-    console.log('right')
-}
-
 function reserveSeat(elem) {
     const seatNumber = elem.innerHTML;
     if (elem.style.backgroundColor === 'crimson') {
