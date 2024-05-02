@@ -64,6 +64,7 @@ a:hover {
   font-size: 72px;
   letter-spacing: 0.2px;
   color: var(--color-white);
+  font-family: 'Roboto', sans-serif;
 }
 
 .header__buttons {
@@ -85,7 +86,7 @@ a:hover {
 .information__date {
   top: 643px;
   left: 50px;
-  margin: 25px 0px 25px 15px;
+  margin: 25px 0 25px 15px;
 }
 
 .information__event {
