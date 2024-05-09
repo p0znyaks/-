@@ -6,6 +6,7 @@
     <title>Бронирование мест</title>
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./booking.css" />
+    <link rel="stylesheet" href="./burger.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap" rel="stylesheet">
@@ -14,12 +15,23 @@
             href="https://fonts.googleapis.com/css2?family=SeoulNamsan CBL:wght@400&display=swap"
     />
     <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
 </head>
 <body>
     <div class="header">
         <div class="header__menu-bar">
             <div class="header__menu-bar-logo">
-                <a href="index.html" target="_self"><img alt="" src="./public/unnamed-1@2x.png"/></a>
+                <a href="index.html" target="_self"><img alt="" src="./public/logo.svg"/></a>
+            </div>
+            <div class="header__burger-menu">
+                <label for="burger-toggle" class="burger-icon">&#9776;</label>
+                <input type="checkbox" id="burger-toggle">
+                <ul class="burger-menu">
+                    <li><a class="burger-a" href="index.html" target="_self">Главная</a></li>
+                    <li><a class="burger-a" href="index.html#collection">Афиша</a></li>
+                    <li><a class="burger-a" href="news.html" target="_self">Новости</a></li>
+                    <li><a class="burger-a" href="brief.html" target="_self">О театре</a></li>
+                </ul>
             </div>
             <div class="header__menu-bar-menu">
                 <div class="header__menu-bar-menu-item"><a href="index.html" target="_self">Главная</a></div>
@@ -59,7 +71,7 @@
             предъявить при входе в театр.</p>
             <div class="panorama__info-actions">
                 <button class="panorama__info-actions-action panorama__info-actions-action_payment"
-                        onclick="buyTickets()">
+                        onclick="openForm()">
                     Оплатить билет
                 </button>
                 <button class="panorama__info-actions-action panorama__info-actions-action_cancel">Отменить</button>
@@ -364,5 +376,6 @@
             </div>
     </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

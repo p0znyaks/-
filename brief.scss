@@ -128,9 +128,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
     max-width: 100%;
-    width: 830px;
     overflow: hidden;
     flex-shrink: 0;
     gap: var(--gap-xl);
@@ -173,13 +171,7 @@
     }
 
     &__action-panel {
-      width: 84px;
       overflow: hidden;
-      flex-shrink: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
       padding: 0 0 2px;
       box-sizing: border-box;
       text-align: right;
@@ -187,6 +179,7 @@
       color: var(--color-gray-300);
 
       &__back {
+        overflow-wrap: anywhere;
         margin: 0;
         align-self: stretch;
         position: relative;
@@ -326,9 +319,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .main-page__distance-info__duration-info__location-info__time {
-    display: none;
-  }
   .main-page {
     padding-left: var(--padding-6xl);
     padding-right: var(--padding-6xl);
